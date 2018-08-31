@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<!--Main page structure for browsing after login-->
+
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sandbox.ActivityFeedPage">
+
+	<!--Begin Input code for the dashboard page-->
+	<ContentPage Title="Dashboard">
+		<BoxView>
+			<BoxView.Color>
+				Black
+			</BoxView.Color>
+			<BoxView.WidthRequest>
+				100
+			</BoxView.WidthRequest>
+			<BoxView.HeightRequest>
+				100
+			</BoxView.HeightRequest>
+		</BoxView>
+
+	</ContentPage>
+
+	<!--End Input code for the dashboard page-->
+
+	<!--Begin Input code for the Jobs page-->
+	<ContentPage Title="Jobs">
+		<StackLayout>
+			<Label Text="Current task:"></Label>
+			<Button Text="Begin Job"
+					Clicked="Begin_Button_Clicked">
+
+
+
+			</Button>
+			<StackLayout x:Name="BoxHolder">
+				<BoxView>
+
+
+					<BoxView.Color>
+						Black
+					</BoxView.Color>
+					<BoxView.HeightRequest>
+						100
+					</BoxView.HeightRequest>
+
+				</BoxView>
+			</StackLayout>
+
+		</StackLayout>
+
+
+	</ContentPage>
+
+	<!--end Input code for the jobs page-->
+
+	<!--Begin Input code for the Report page-->
+	<ContentPage>
+		<ContentPage.Title>
+			Report
+		</ContentPage.Title>
+
+		<StackLayout>
+			<Button>
+				<Button.Text>
+					Make a report
+				</Button.Text>
+			</Button>
+
+			<BoxView>
+				<BoxView.Color>
+					Black
+				</BoxView.Color>
+				<BoxView.HeightRequest>
+					100
+				</BoxView.HeightRequest>
+
+			</BoxView>
+
+		</StackLayout>
+
+	</ContentPage>
+	<!--End Input code for the reports page-->
+
+	<!--Begin Input code for the requests page-->
+	<ContentPage>
+		<ContentPage.Title>
+			Requests
+		</ContentPage.Title>
+		<StackLayout>
+			<Button>
+				<Button.Text>
+					Make a request
+				</Button.Text>
+			</Button>
+
+			<BoxView>
+				<BoxView.Color>
+					Black
+				</BoxView.Color>
+				<BoxView.HeightRequest>
+					100
+				</BoxView.HeightRequest>
+
+			</BoxView>
+
+		</StackLayout>
+
+	</ContentPage>
+
+	<!--End Input code for the requests page-->
+
+	<!--Begin Input code for the Communications page-->
+
+	<ContentPage>
+		<ContentPage.Title>
+			Communications
+		</ContentPage.Title>
+
+		<StackLayout>
+			<Button>
+				<Button.Text>
+					Contact Team
+				</Button.Text>
+			</Button>
+
+			<Button>
+				<Button.Text>
+					Contact Team Leader
+				</Button.Text>
+			</Button>
+
+			<Button>
+				<Button.Text>
+					Contact Department Leader
+				</Button.Text>
+			</Button>
+
+			<Button>
+				<Button.Text>
+					Contact DC Leader
+				</Button.Text>
+			</Button>
+
+			<BoxView>
+				<BoxView.Color>
+					Black
+				</BoxView.Color>
+				<BoxView.HeightRequest>
+					100
+				</BoxView.HeightRequest>
+
+			</BoxView>
+		</StackLayout>
+
+	</ContentPage>
+	<!--end Input code for the Communications page-->
+
+
+</TabbedPage>
